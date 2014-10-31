@@ -1,0 +1,32 @@
+---
+abstract: 'generate normally distributed PRN using Leva method'
+author:
+  - 'Binary.com <binary@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Statistics::Descriptive: '0'
+  Test::Deep: '0'
+  Test::More: '0.94'
+configure_requires:
+  ExtUtils::MakeMaker: '6.64'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Math-Random-Normal-Leva
+no_index:
+  directory:
+    - t
+    - inc
+  file:
+    - README.pod
+requires:
+  Math::Random::Secure: '0'
+resources:
+  bugtracker: https://github.com/binary-com/perl-Math-Random-Normal-Leva/issues
+  homepage: https://github.com/binary-com/perl-Math-Random-Normal-Leva
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/binary-com/perl-Math-Random-Normal-Leva
+version: '0.01'
